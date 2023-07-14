@@ -149,9 +149,15 @@
                     
                 }
             }
-            .top img{
+            .top  img{
                 margin-right: 24px;
             }
+            .bottomImg {
+                display: flex;
+                justify-content: space-between;
+            }
+
+           
         }
     }
 

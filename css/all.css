@@ -246,6 +246,10 @@ img {
 .projectImg .projectImgRight .top img {
   margin-right: 24px;
 }
+.projectImg .projectImgRight .bottomImg {
+  display: flex;
+  justify-content: space-between;
+}
 
 .footer {
   text-align: center;
