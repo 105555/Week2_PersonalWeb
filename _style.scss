@@ -1,0 +1,165 @@
+.menu{
+    li{
+        padding-top: 40px;
+        padding-bottom: 24px; 
+        width: 306px;   
+        text-align: center;
+        a{
+            color: $color_gray;
+            &:hover{
+                opacity: .8;
+            }
+        }
+    }
+}
+
+
+
+.banner{
+    display: flex;
+    .bannerTitle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 636px;
+        .fontWhite{
+            font-size: 64px;
+            color: $color_white;
+        }
+        .fontGreen{
+            font-size:128px;
+            color: #00FFA3;
+            text-align: right;
+        }
+    
+        img{
+            margin-left: 5px;
+        }
+    }
+
+    .touch{
+        background-color: #fff;
+        text-align: center;
+        margin-left: auto;
+        width: 185px;
+        border-radius: 32px;
+          a{
+            color: $color_black;  
+          }
+    }
+}
+
+.bgImg{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    .intrContent{
+        width: 526px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 24px;
+        .fontWhite{
+            font-size: 64px;
+            color: $color_white;
+        }
+    }
+    .intrImg{
+        display: flex;
+        justify-content: space-between;
+        width: 746px;
+        margin: 160px 0;
+       
+    }
+}
+
+.bgWhite{
+    background-color: $color_white;
+    .aboutMe{
+        display: flex;
+        width: 48%;
+        flex-wrap: wrap;
+        width: 736px;
+        margin: 206px 0;
+        .box{
+            width: 306px;
+            margin-bottom: 24px;
+            margin-left: 24px;
+        }
+    }
+    .aboutMeContent{
+        width: 526px;
+        p{
+            color: $color_black;
+        }
+    }
+}
+
+.bgBlue{
+    background-image: linear-gradient(#050014 100%,#01021E 89%);
+    .contact{
+        display: flex;
+        margin: 127px 0;
+        p{
+            color: $color_white;
+            margin-right: 16px;
+        }
+    }
+    .contactImg{
+       .moveHover{
+        transform:scale(1,1);
+        transition: all 1s ease-out;
+        &:hover{
+            opacity: .5;
+            transform:scale(1.1,1.1);
+        }
+       }
+    }
+}
+
+.projectTitle{
+    width: 746px;
+    margin-left: auto;
+    padding-top: 160px;
+    margin-bottom: 16px;
+}
+
+
+    .projectImg{
+        display: flex;
+        padding-bottom: 160px;
+        .projectImgLeft{
+            margin-right: 24px;
+        }
+        .projectImgRight{
+            .top{
+                display: flex;
+                margin-bottom: 28px;
+            }
+            .topContent{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                a{
+                    background-color: $color_black;
+                    width: 185px;
+                    text-align: center;
+                    border-radius: 32px;
+                    color: $color_white;
+                    padding: 12px 4px 12px 24px;
+                    
+                }
+            }
+            .top img{
+                margin-right: 24px;
+            }
+        }
+    }
+
+
+.footer{
+    text-align: center;
+    p{
+        color: $color_white;
+        padding: 40px 0;
+    }
+}
