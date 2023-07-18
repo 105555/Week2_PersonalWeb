@@ -5,45 +5,10 @@
 body{
     font-family: 'Bruno Ace SC', cursive;
     line-height: 1.5;
-    font-weight: 400;
 }
 
 img{
     vertical-align: top;
 }
 
-.container{
-    width: 1296px;
-    margin: 0 auto;
-}
-.d-flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.wrap{
-    background-color: #000000;
-}
 
-.mb-32{
-    margin-bottom: 32px;
-}
-.mb-36{
-    margin-bottom: 36px;
-}
-
-.f-20{
-    font-size: 20px;
-}
-.f-24{
-    font-size: 24px;
-    color: #ffffff;
-    font-weight: 400;
-}
-.f-64{
-    font-size: 64px;
-}
-
-.bgWhite{
-    background-color: #ffffff;
-}

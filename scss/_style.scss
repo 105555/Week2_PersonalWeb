@@ -1,14 +1,16 @@
 .menu{
     li{
         padding-top: 40px;
-        padding-bottom: 24px; 
         width: 306px;   
-        text-align: center;
         a{
             color: $color_gray;
+            text-align: right;
             &:hover{
                 opacity: .8;
             }
+        }
+        p{
+            color: $color_gray;
         }
     }
 }
@@ -17,10 +19,9 @@
 
 .banner{
     display: flex;
+    justify-content: space-between;
     .bannerTitle{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        align-self: center;
         width: 636px;
         .fontWhite{
             font-size: 64px;
@@ -43,6 +44,8 @@
         margin-left: auto;
         width: 185px;
         border-radius: 32px;
+        display: block;
+        padding: 5px 0;
           a{
             color: $color_black;  
           }
@@ -53,9 +56,6 @@
     background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
     .intrContent{
         width: 526px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
         margin-right: 24px;
         .fontWhite{
             font-size: 64px;
@@ -83,6 +83,8 @@
             width: 306px;
             margin-bottom: 24px;
             margin-left: 24px;
+            border:solid 1px $color_gray;
+            padding: 16px 16px;
         }
     }
     .aboutMeContent{
@@ -97,13 +99,16 @@
     background-image: linear-gradient(#050014 100%,#01021E 89%);
     .contact{
         display: flex;
-        margin: 127px 0;
         p{
             color: $color_white;
             margin-right: 16px;
         }
     }
     .contactImg{
+        padding: 96px 0;
+        img{
+            width: 162px;
+        }
        .moveHover{
         transform:scale(1,1);
         transition: all 1s ease-out;

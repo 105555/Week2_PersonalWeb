@@ -56,7 +56,6 @@ table {
 body {
   font-family: "Bruno Ace SC", cursive;
   line-height: 1.5;
-  font-weight: 400;
 }
 
 img {
@@ -104,26 +103,31 @@ img {
   background-color: #ffffff;
 }
 
+.t-r {
+  text-align: right;
+}
+
 .menu li {
   padding-top: 40px;
-  padding-bottom: 24px;
   width: 306px;
-  text-align: center;
 }
 .menu li a {
   color: #D1D1D1;
+  text-align: right;
 }
 .menu li a:hover {
   opacity: 0.8;
 }
+.menu li p {
+  color: #D1D1D1;
+}
 
 .banner {
   display: flex;
+  justify-content: space-between;
 }
 .banner .bannerTitle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  align-self: center;
   width: 636px;
 }
 .banner .bannerTitle .fontWhite {
@@ -144,6 +148,8 @@ img {
   margin-left: auto;
   width: 185px;
   border-radius: 32px;
+  display: block;
+  padding: 5px 0;
 }
 .banner .touch a {
   color: #000000;
@@ -154,9 +160,6 @@ img {
 }
 .bgImg .intrContent {
   width: 526px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin-right: 24px;
 }
 .bgImg .intrContent .fontWhite {
@@ -184,6 +187,8 @@ img {
   width: 306px;
   margin-bottom: 24px;
   margin-left: 24px;
+  border: solid 1px #D1D1D1;
+  padding: 16px 16px;
 }
 .bgWhite .aboutMeContent {
   width: 526px;
@@ -197,11 +202,16 @@ img {
 }
 .bgBlue .contact {
   display: flex;
-  margin: 127px 0;
 }
 .bgBlue .contact p {
   color: #ffffff;
   margin-right: 16px;
+}
+.bgBlue .contactImg {
+  padding: 96px 0;
+}
+.bgBlue .contactImg img {
+  width: 162px;
 }
 .bgBlue .contactImg .moveHover {
   transform: scale(1, 1);
